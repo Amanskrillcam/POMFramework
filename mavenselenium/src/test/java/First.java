@@ -18,6 +18,7 @@ public class First {
             //enter text with sendKeys() then apply submit()
             p.sendKeys("Selenium Java");
             // Explicit wait condition for search results
+            @Deprecated
             WebDriverWait w = new WebDriverWait(driver, 5);
             w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//ul")));
             p.submit();
