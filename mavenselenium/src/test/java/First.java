@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,8 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 public class First {
         public static void main(String[] args) {
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\AmanShukla\\Selenium\\chromedriver.exe");
-            WebDriver driver=new ChromeDriver();
+            
+            WebDriverManager.chromedriver().setup();
+            ChromeDriver driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.get("http://www.google.com");
             System.out.println(driver.getTitle());
