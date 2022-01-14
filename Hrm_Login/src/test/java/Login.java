@@ -15,9 +15,7 @@ public class Login {
         driver.get("https://opensource-demo.orangehrmlive.com/");
         WebElement Txtbx=driver.findElement(By.id("txtUsername"));
         Txtbx.sendKeys("Admin");
-        Txtbx=driver.findElement(By.id("txtPassword"));
-        Txtbx.sendKeys("admin123");
-
+        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
         driver.findElement(By.xpath("//*[@id=\"btnLogin\"]")).click();
         String expected_title= "OrangeHRM";
         String actual_title=driver.getTitle();
@@ -26,9 +24,11 @@ public class Login {
         }else{
             System.out.println("Invalid credentials");
         }
-        @Deprecated
-        WebDriverWait w = new WebDriverWait(driver, 5);
-        Txtbx.submit();
+
+        driver.findElement(By.id("______")).click();
+         //@Deprecated
+         //WebDriverWait w = new WebDriverWait(driver, 5);
+      //  Txtbx.submit();
         driver.quit();
 
     }
