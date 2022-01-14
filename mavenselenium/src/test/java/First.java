@@ -20,7 +20,7 @@ public class First {
             // Explicit wait condition for search results
             @Deprecated
             WebDriverWait w = new WebDriverWait(driver, 5);
-            w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//ul")));
+            w.until(ExpectedConditions.presenceOfElementLocated(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[2]/input")));
             p.submit();
             driver.quit();
         }
