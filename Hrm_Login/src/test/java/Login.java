@@ -7,8 +7,10 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.sql.Driver;
 
-public class Login {
-    public static void main(String[] args) {
+public class Login
+{
+    public static void main(String[] args)
+    {
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
@@ -19,16 +21,17 @@ public class Login {
         driver.findElement(By.xpath("//*[@id=\"btnLogin\"]")).click();
         String expected_title= "OrangeHRM";
         String actual_title=driver.getTitle();
-        if (expected_title.equals(actual_title)){
+        if (expected_title.equals(actual_title))
+        {
             System.out.println("login successful");
-        }else{
+        }else
+        {
             System.out.println("Invalid credentials");
         }
-
         driver.findElement(By.id("______")).click();
-         //@Deprecated
-         //WebDriverWait w = new WebDriverWait(driver, 5);
-      //  Txtbx.submit();
+
+        WebDriverWait w = new WebDriverWait(driver, 5);
+        Txtbx.submit();
         driver.quit();
 
     }
