@@ -20,7 +20,8 @@ import java.util.concurrent.TimeUnit;
             WebDriver driver=new ChromeDriver();
             driver.manage().window().maximize();
             driver.get("https://demoqa.com/");
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            WebDriverWait w = new WebDriverWait(driver, Duration.ofMillis(1000));
+            //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             Thread.sleep(5000);
             WebElement Txtbox =driver.findElement(By.xpath("//*[@id=\"app\"]/div/div/div[2]/div/div[1]/div"));
             Txtbox.click();
@@ -32,9 +33,8 @@ import java.util.concurrent.TimeUnit;
             JavascriptExecutor js = (JavascriptExecutor) driver;
             js.executeScript("window.scrollBy(0,350)", "");
             driver.findElement(By.id("submit")).click();
-            driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+            //driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             Thread.sleep(5000);
-            WebDriverWait w = new WebDriverWait(driver, 10);
             driver.quit();
         }
 
