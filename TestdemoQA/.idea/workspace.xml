@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e9decbb-8986-46f8-b295-de98c5495eb1" name="Changes" comment="Demoqa selenium test commit">
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/HRMlogin/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Base.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Hrm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Seleniummaven" beforeDir="false" afterPath="$PROJECT_DIR$/../Seleniummaven" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QAdemo/Demoqa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/QAdemo/Demoqa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +29,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23pS8TxYqw0WDFTVzzDf0IRS5jg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -106,6 +104,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Demoqa selenium test" />
     <MESSAGE value="Demoqa selenium test commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Demoqa selenium test commit" />
