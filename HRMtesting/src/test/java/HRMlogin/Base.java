@@ -17,7 +17,8 @@ class Hrm
      WebDriver driver = new ChromeDriver();
     void login()
     {
-        driver.get("http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login");
+        String url="http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login";
+        driver.get(url);
         driver.manage().window().maximize();
         WebElement a = driver.findElement(By.name("txtUsername"));
         a.sendKeys("Admin");
@@ -196,12 +197,12 @@ public class Base extends Hrm
         WebDriverManager.chromedriver().setup();
         Hrm h = new Hrm();
         h.login();
-        h.adduser();
-        h.verifyuserisadded();
+       // h.adduser();
+       // h.verifyuserisadded();
        // h.edituser();
        // h.deleteuser();
        // h.Dropdown();
-       // h.calender();
+        h.calender();
        // h.logout();
        // h.close();
     }

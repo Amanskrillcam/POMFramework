@@ -1,77 +1,49 @@
 package pkg.Calendar;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.lang.time.DurationFormatUtils;
+import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class Calendar {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) throws InterruptedException {
 
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
-        driver.get("http://cleartrip.com");
-        driver.findElement(By.id("DepartDate")).click();
-
-        WebElement cal;
-        cal=driver.findElement(By.className("calendar"));
-        String dot="9/October/2018";
-        String date,month,year;
-        String caldt,calmonth,calyear;
-        /*
-         * Split the String into String Array
-         */
-        String dateArray[]= dot.split("/");
-        date=dateArray[0];
-        month=dateArray[1];
-        year=dateArray[2];
-        calyear=driver.findElement(By.className("ui-datepicker-year")).getText();
-        /*
-         * Select the year
-         */
-
-        while (!calyear.equals(year))
-        {
-            driver.findElement(By.className("nextMonth")).click();
-            calyear=driver.findElement(By.className("ui-datepicker-year")).getText();
-            System.out.println("Displayed Year::" + calyear);
-        }
-
-        calmonth=driver.findElement(By.className("ui-datepicker-month")).getText();
-        /*
-         * Select the Month
-         */
-        while (!calmonth.equalsIgnoreCase(month))
-        {
-            driver.findElement(By.className("nextMonth ")).click();
-            calmonth=driver.findElement(By.className("ui-datepicker-month")).getText();
-        }
-
-        cal=driver.findElement(By.className("calendar"));
-        /*
-         * Select the Date
-         */
-        List<WebElement> rows,cols;
-        rows=cal.findElements(By.tagName("tr"));
-        for (int i = 1; i < rows.size(); i++)
-        {
-            cols=rows.get(i).findElements(By.tagName("td"));
-            for (int j = 0; j < cols.size(); j++)
-            {
-                caldt=cols.get(j).getText();
-                if (caldt.equals(date))
-                {
-                    cols.get(j).click();
-                    break;
-                }
-            }
-        }
-
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.cleartrip.com/");
+        driver.findElement(By.id("flex flex-middle p-relative homeCalender")).click();
+        Thread.sleep(2000);
+        //new WebDriverWait(driver, Duration.ofSeconds(5));
+        dateselect("20","may","2022");
     }
 
-}
+    public static String[] getmonthyear(String monyear)
+    {
+        return monyear.split((" "));
+    }
 
+    public static void dateselect(String userday, String usermonth, String useryear)
+    {
+        WebDriver driver = new ChromeDriver();
+        String monyear = driver.findElement(By.className("flex-1 ta-left")).getText();
+        System.out.println(monyear);
+       // String month = monyear.split(" ")[0].trim();
+       // String year = monyear.split(" ")[1].trim();
+        while (!(getmonthyear(monyear)[0].equals("usermonth")
+                 &&
+                getmonthyear(monyear)[1].equals("useryear")))
+        {
+            driver.findElement(By.xpath("//g[@Fill='none']")).click();
+            monyear = driver.findElement(By.className("flex-1 ta-left")).getText();
+        }
+        driver.findElement(By.xpath("//div[text()='"+userday+"']")).click();
+
+    }
+}
