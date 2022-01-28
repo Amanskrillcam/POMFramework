@@ -18,7 +18,7 @@ public class DataFetch
 
     public void Launch()
     {
-        //launch using webdriver manager
+        //launch using webdriver manager.
         //WebDriverManager.chromedriver().setup();
         driverpath=System.getProperty("user.dir")+"//driver//chromedriver.exe";
         System.out.println(driverpath);
