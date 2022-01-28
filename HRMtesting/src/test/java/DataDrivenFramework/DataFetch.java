@@ -22,13 +22,13 @@ public class DataFetch
         //WebDriverManager.chromedriver().setup();
         driverpath=System.getProperty("user.dir")+"//driver//chromedriver.exe";
         System.out.println(driverpath);
-        //Step1
+        //.Step1
         System.setProperty("webdriver.chrome.driver",driverpath);
-        //Step2
+        //.Step2
         driver=new ChromeDriver();
-        //Step3
+        //.Step3
         driver.manage().window().maximize();
-        //Step4
+        //.Step4
         driver.get("https://opensource-demo.orangehrmlive.com/");
         //driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
         // driver.findElement(By.className(""));
