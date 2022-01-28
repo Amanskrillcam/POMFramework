@@ -24,16 +24,13 @@ public class Windowhandle {
         //Step4
         driver.get("https://the-internet.herokuapp.com/");
         driver.findElement(By.linkText("Multiple Windows")).click();
+        //handling multiple windows
         String handle=driver.getWindowHandle();
         Set<String> handles=driver.getWindowHandles();
         driver.switchTo().window(handle);
+
         //switch to newly created window
-//        String curwindow=driver.getWindowHandle();
-        for (handle: handles)
-        {
-
-        }
-
+        String curwindow=driver.getWindowHandle();
 
     }
 }
