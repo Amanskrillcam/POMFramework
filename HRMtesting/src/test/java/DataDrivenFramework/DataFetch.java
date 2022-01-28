@@ -33,29 +33,23 @@ public class DataFetch
         //driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
         // driver.findElement(By.className(""));
     }
+
     public void Getdata() throws IOException
     {
         //Step1 give path of the file
         path = System.getProperty("user.dir")+"\\Testdata\\Test_data.xlsx";
         System.out.println(path);
-
-
         //Step2 give path in fileinputstream class from where we want to add file
         FileInputStream fis = new FileInputStream(path);
-
         //step3 move to workbook
         XSSFWorkbook wb = new XSSFWorkbook(fis);
-
         //step4 move to specific sheet
         XSSFSheet sheet = wb.getSheetAt(0);
-
         //Step5 read rows from excel sheet
         System.out.println(sheet.getLastRowNum());
-
         //Step6 read data from cell
         //String usrname=sheet.getRow(1).getCell(0).getStringCellValue();
         //System.out.println("username is"+usrname);
-
         for (int i = 1; i <= sheet.getLastRowNum(); i++)
         {
             uname = sheet.getRow(i).getCell(0).getStringCellValue();
@@ -64,10 +58,9 @@ public class DataFetch
             driver.findElement(By.id("txtPassword")).sendKeys(uname);
             driver.findElement(By.id("btnLogin")).click();
             System.out.println("username and password"+" "+uname+" "+pass);
-
-
         }
     }
+
     public void writeexcel(String sheetname,int col,String cellvalue) throws IOException
     {
         String filepath=System.getProperty("user.dir")+"\\Testdata\\Test_data.xlsx";
@@ -78,15 +71,10 @@ public class DataFetch
         {
             sheet.getRow(i).createCell(col).setCellValue(cellvalue);
         }
-
         FileOutputStream fos=new FileOutputStream(filepath);
-
         wrkbk.write(fos);
         fos.close();
     }
-
-
-
 
     public void Closedriver()
     {
