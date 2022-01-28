@@ -2,7 +2,6 @@ package DataDrivenFramework;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -30,14 +29,15 @@ public class DataFetch
         //Step4
         driver.get("https://opensource-demo.orangehrmlive.com/");
         //driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
-       // driver.findElement(By.className(""));
+        // driver.findElement(By.className(""));
         //Step5throws IOException
     }
     public void Getdata() throws IOException
     {
         //Step1 give path of the file
-        path = System.getProperty("user.dir")+"/test_Data/Test_data.xlsx";
+        path = System.getProperty("user.dir")+"\\Testdata\\Test_data.xlsx";
         System.out.println(path);
+
 
         //Step2 give path in fileinputstream class from where we want to add file
         FileInputStream fis = new FileInputStream(path);
@@ -56,14 +56,14 @@ public class DataFetch
         //System.out.println("username is"+usrname);
 
         for (int i = 1; i <= sheet.getLastRowNum(); i++)
-      {
-           uname = sheet.getRow(i).getCell(0).getStringCellValue();
-           driver.findElement(By.id("txtUsername")).sendKeys(uname);
-           pass=sheet.getRow(i).getCell(1).getStringCellValue();
-           driver.findElement(By.id("txtPassword")).sendKeys(uname);
-           driver.findElement(By.id("btnLogin")).click();
+        {
+            uname = sheet.getRow(i).getCell(0).getStringCellValue();
+//            driver.findElement(By.id("txtUsername")).sendKeys(uname);
+            pass=sheet.getRow(i).getCell(1).getStringCellValue();
+//            driver.findElement(By.id("txtPassword")).sendKeys(uname);
+//            driver.findElement(By.id("btnLogin")).click();
 
-      }
+        }
     }
     public void Closedriver()
     {
@@ -73,9 +73,8 @@ public class DataFetch
     public static void main(String[] args) throws IOException
     {
         DataFetch df=new DataFetch();
-        df.Launch();
+//        df.Launch();
         df.Getdata();
-        df.Closedriver();
+//        df.Closedriver();
     }
 }
-
