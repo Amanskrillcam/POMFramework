@@ -19,8 +19,8 @@ public class HomepageTest extends TestngDemo
     public void Logout()
     {
         driver.findElement(By.partialLinkText("Welcome")).click();
-        /*JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("arguments[0].click();",driver);*/
+//        /*JavascriptExecutor js = (JavascriptExecutor) driver;
+//        js.executeScript("arguments[0].click();",driver);*/
         driver.manage().timeouts().implicitlyWait(Duration.ofMillis(3000));
         driver.findElement(By.linkText("Logout")).click();
     }
