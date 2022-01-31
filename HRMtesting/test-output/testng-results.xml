@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="8165" started-at="2022-01-31T19:36:39 IST" finished-at="2022-01-31T19:36:47 IST">
+    <groups>
+    </groups>
+    <test name="HRMtesting" duration-ms="8165" started-at="2022-01-31T19:36:39 IST" finished-at="2022-01-31T19:36:47 IST">
+      <class name="TestngDemo.LoginTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestngDemo.LoginTest@10bbd20a]" name="launch" is-config="true" duration-ms="9055" started-at="2022-01-31T19:36:30 IST" finished-at="2022-01-31T19:36:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="Forgetpass()[pri:0, instance:TestngDemo.LoginTest@10bbd20a]" name="Forgetpass" duration-ms="1108" started-at="2022-01-31T19:36:39 IST" finished-at="2022-01-31T19:36:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgetpass -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:TestngDemo.LoginTest@10bbd20a]" name="Login" duration-ms="5650" started-at="2022-01-31T19:36:40 IST" finished-at="2022-01-31T19:36:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestngDemo.LoginTest@10bbd20a]" name="close" is-config="true" duration-ms="119" started-at="2022-01-31T19:36:47 IST" finished-at="2022-01-31T19:36:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestngDemo.LoginTest -->
+      <class name="TestngDemo.HomepageTest">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:TestngDemo.HomepageTest@394e1a0f]" name="Logout" duration-ms="1357" started-at="2022-01-31T19:36:46 IST" finished-at="2022-01-31T19:36:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="verifypage()[pri:0, instance:TestngDemo.HomepageTest@394e1a0f]" name="verifypage" duration-ms="11" started-at="2022-01-31T19:36:47 IST" finished-at="2022-01-31T19:36:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifypage -->
+      </class> <!-- TestngDemo.HomepageTest -->
+    </test> <!-- HRMtesting -->
+  </suite> <!-- Default Suite -->
+</testng-results>
