@@ -24,7 +24,7 @@ public class FetchNewsBBC {
         {
             String linktxt = linktext.get(i).getText();
             String linkurl  = linktext.get(i).getAttribute("href");
-            System.out.println(linktxt+"    "+linkurl);
+            System.out.println(linktxt+"   "+linkurl);
         }
     }
 }
