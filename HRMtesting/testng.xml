@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo/TestngDemo.java">
-       <classes>
-           <class name="TestngDemo.LoginTest">
-               <methods>
-                   <include name="Forgetpass"></include>
-                   <include name="Login"></include>
-               </methods>
-           </class>
-           <class name="TestngDemo.HomepageTest">
-               <methods>
-                   <include name="verifypage"></include>
-                   <include name="Logout"></include>
-               </methods>
-           </class>
-
-       </classes>
+    <test  thread-count="5" verbose="2" preserve-order="true" name="C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo">
+     <groups>
+         <run>
+             <include name="regression"></include>
+         </run>
+     </groups>
+        <classes>
+            <class name="TestngDemo.GroupingTests">
+            </class>
+        </classes>
     </test>
 </suite>
