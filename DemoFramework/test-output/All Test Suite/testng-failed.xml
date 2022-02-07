@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
   <test thread-count="5" name="C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases(failed)">
     <classes>
-      <class name="TestCases.LoginPageTest">
+      <class name="TestCases.HomePageTest">
         <methods>
-          <include name="teardown"/>
-          <include name="userlogintest"/>
-          <include name="setup"/>
+          <include name="validatemaintenancetest"/>
+          <include name="validatebuzztest"/>
+          <include name="validatedirectorytest"/>
         </methods>
-      </class> <!-- TestCases.LoginPageTest -->
+      </class> <!-- TestCases.HomePageTest -->
     </classes>
   </test> <!-- C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

@@ -6,6 +6,8 @@ import Pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.io.IOException;
+
 public class LoginPageTest extends BaseTest
 {
     LoginPage obj;
@@ -19,23 +21,22 @@ public class LoginPageTest extends BaseTest
         obj= new LoginPage();
     }
 
-    @Test(priority = 0)
+    @BeforeTest
+    public void forgotPasswrdButton()
+    {
+        obj.forgotpass();
+    }
+
+    @BeforeClass
+    public void userlogintest() throws IOException {
+        obj.userlogin();
+    }
+
+    @Test
     public void loginpagetitletest()
     {
        String logintitle= obj.Validateloginpagetitle();
         Assert.assertEquals(logintitle,"OrangeHRM");
-    }
-
-    @Test(priority = 2)
-    public void userlogintest()
-    {
-        obj.userlogin();
-    }
-
-    @Test(priority = 1)
-    public void forgotPasswrdButton()
-    {
-        obj.forgotpass();
     }
 
     @AfterSuite
