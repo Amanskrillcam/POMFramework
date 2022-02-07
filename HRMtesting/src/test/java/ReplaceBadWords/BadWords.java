@@ -10,7 +10,7 @@ public class BadWords
             list.add("stupid");
             list.add("idiot");
             list.add("nonsense");
-            boolean containsSearchStr = list.stream().anyMatch("stupid"::equalsIgnoreCase);
+//            boolean containsSearchStr = list.stream().anyMatch("stupid"::equalsIgnoreCase);
         }
 
         public void replacebadwords() {

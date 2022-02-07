@@ -10,6 +10,7 @@ public class TestngDemo
    public static String driverpath;
    public static WebDriver driver;
     @BeforeSuite
+
     public void launch()
    {
 //       launch using webdriver manager.

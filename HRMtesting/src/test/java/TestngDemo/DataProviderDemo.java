@@ -2,21 +2,25 @@ package TestngDemo;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.FileInputStream;
 import java.io.IOException;
-public class DataProviderDemo {
+public class DataProviderDemo
+{
     static String path;
-    static WebDriver driver;
+    public static WebDriver driver;
     FileInputStream fis;
     XSSFWorkbook wb;
     XSSFSheet sheet;
+
     @DataProvider(name="Login_Details")
-    public Object[][] Data() throws IOException{
-        path = System.getProperty("user.dir")+"//TestData//Test_data.xlsx";
+    public Object[][] Data() throws IOException
+    {
+        path = System.getProperty("user.dir")+"//Testdata//Test_data.xlsx";
 
 //Step-2 Give path in FileInputstream class from where you want to run
         fis = new FileInputStream(path);
@@ -41,10 +45,11 @@ public class DataProviderDemo {
     }
 
     @Test(dataProvider ="Login_Details")
-    public void signIn(String uname, String pass) {
+    public void signin(String uname, String pass)
+    {
         System.out.println(uname+"\t"+pass);
-// driver.findElement(By.id("txtUsername")).sendKeys(uname);
-// driver.findElement(By.id("txtPassword")).sendKeys(pass);
-// driver.findElement(By.id("btnLogin")).click();
+         driver.findElement(By.id("txtUsername")).sendKeys(uname);
+         driver.findElement(By.id("txtPassword")).sendKeys(pass);
+         driver.findElement(By.id("btnLogin")).click();
     }
 }

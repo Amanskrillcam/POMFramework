@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10b63c3a-4fd6-4d7a-bec5-6ce78267a87e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Basepackage/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Configpackage/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/AdminPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/BuzzPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/DirectoryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LeavePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MaintainancePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MarketPlacePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/MyInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PIMPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/PerformancePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/RecruitmentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/TimePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/TestUtilClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestCases/LoginPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Basepackage/BaseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/AdminPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/BuzzPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/DashboardPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/DirectoryPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/HomePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/LeavePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/MaintainancePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/MarketPlacePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/MyInfoPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/PIMPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/PerformancePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/RecruitmentPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Pages/TimePage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utilities/TestUtilClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/TestCases/LoginPageTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_AmanShukla_IdeaProjects_DemoFramework_src_test_java_TestCases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/C__Users_AmanShukla_IdeaProjects_DemoFramework_src_test_java_TestCases.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestCases.LoginPageTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/C__Users_AmanShukla_IdeaProjects_DemoFramework_src_test_java_TestCases.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/Log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/ExtentReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/utilities/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/All Test Suite/C__Users_AmanShukla_IdeaProjects_HRMtesting_src_test_java_TestngDemo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/All Test Suite/C__Users_AmanShukla_IdeaProjects_HRMtesting_src_test_java_TestngDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/All Test Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.GroupingTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.ParallelTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.ParametersTestng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/C__Users_AmanShukla_IdeaProjects_HRMtesting_src_test_java_TestngDemo.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/All Test Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HRMtesting/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/CSSSelector/LocatorCSSSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/CSSSelector/LocatorCSSSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/FbXpaths/XpathsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/FbXpaths/XpathsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/HRMlogin/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/HRMlogin/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/ReplaceBadWords/BadWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/ReplaceBadWords/BadWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/DataProviderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/DataProviderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/TestngDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/src/test/java/TestngDemo/TestngDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/BBCAssignment/FetchNewsBBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/BBCAssignment/FetchNewsBBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Hrm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/HRMlogin/Hrm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/DemoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/DemoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/HomepageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/HomepageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/TestngDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/target/test-classes/TestngDemo/TestngDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/Default Suite/HRMtesting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/Default Suite/HRMtesting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/Default Suite/HRMtesting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/Default Suite/HRMtesting.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.HomepageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.HomepageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.LoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/junitreports/TEST-TestngDemo.LoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/Default Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HRMtesting/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMtesting/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seleniumdemo" beforeDir="false" afterPath="$PROJECT_DIR$/../Seleniumdemo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Seleniummaven" beforeDir="false" afterPath="$PROJECT_DIR$/../Seleniummaven" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exceptn" beforeDir="false" afterPath="$PROJECT_DIR$/../exceptn" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24dsFfaSOD142ID8Z6gdMjTa48e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/testng.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AmanShukla\IdeaProjects\DemoFramework\src\main\java" />
+      <recent name="C:\Users\AmanShukla\IdeaProjects\DemoFramework\src\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Demoframework">
+    <configuration name="Demoframework" type="TestNG">
+      <module name="DemoFramework" />
+      <shortenClasspath name="NONE" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.LoginPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.loginpagetitletest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.LoginPageTest" />
+      <option name="METHOD_NAME" value="loginpagetitletest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTest.userlogintest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DemoFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestCases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestCases" />
+      <option name="MAIN_CLASS_NAME" value="TestCases.LoginPageTest" />
+      <option name="METHOD_NAME" value="userlogintest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Demoframework" />
+      <item itemvalue="TestNG.LoginPageTest" />
+      <item itemvalue="TestNG.LoginPageTest (1)" />
+      <item itemvalue="TestNG.LoginPageTest.userlogintest" />
+      <item itemvalue="TestNG.LoginPageTest (2)" />
+      <item itemvalue="TestNG.LoginPageTest.loginpagetitletest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginPageTest.userlogintest" />
+        <item itemvalue="TestNG.LoginPageTest.loginpagetitletest" />
+        <item itemvalue="TestNG.LoginPageTest" />
+        <item itemvalue="TestNG.LoginPageTest (2)" />
+        <item itemvalue="TestNG.LoginPageTest (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10b63c3a-4fd6-4d7a-bec5-6ce78267a87e" name="Changes" comment="" />
+      <created>1643971696220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643971696220</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

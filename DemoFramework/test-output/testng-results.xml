@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="6609" started-at="2022-02-07T17:34:57 IST" finished-at="2022-02-07T17:35:04 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases" duration-ms="6609" started-at="2022-02-07T17:34:57 IST" finished-at="2022-02-07T17:35:04 IST">
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginPageTest@2833cc44]" name="setup" is-config="true" duration-ms="9297" started-at="2022-02-07T17:34:48 IST" finished-at="2022-02-07T17:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpagetitletest()[pri:0, instance:TestCases.LoginPageTest@2833cc44]" name="loginpagetitletest" duration-ms="46" started-at="2022-02-07T17:34:57 IST" finished-at="2022-02-07T17:34:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="forgotPasswrdButton()[pri:1, instance:TestCases.LoginPageTest@2833cc44]" name="forgotPasswrdButton" duration-ms="1125" started-at="2022-02-07T17:34:57 IST" finished-at="2022-02-07T17:34:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswrdButton -->
+        <test-method status="PASS" signature="userlogintest()[pri:2, instance:TestCases.LoginPageTest@2833cc44]" name="userlogintest" duration-ms="5422" started-at="2022-02-07T17:34:59 IST" finished-at="2022-02-07T17:35:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogintest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.LoginPageTest@2833cc44]" name="teardown" is-config="true" duration-ms="696" started-at="2022-02-07T17:35:04 IST" finished-at="2022-02-07T17:35:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

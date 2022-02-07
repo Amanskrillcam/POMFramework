@@ -23,7 +23,7 @@ public class LocatorCSSSelector
         //.Step4
         driver.get("https://opensource-demo.orangehrmlive.com/");
         driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
-        driver.findElement(By.cssSelector("input#txtPassword")).sendKeys("Admin");
+        driver.findElement(By.cssSelector("input#txtUsername")).sendKeys("Admin");
 //        driver.findElement(By.className(""));
     }
 

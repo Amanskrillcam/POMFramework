@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test  thread-count="5" verbose="2" preserve-order="true" name="C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo">
-     <groups>
-         <run>
-             <include name="regression"></include>
-         </run>
-     </groups>
+    <listeners>
+        <listener class-name="utilities.Listeners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true"   name="C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo">
+
         <classes>
-            <class name="TestngDemo.GroupingTests">
+<!--            <class name="TestngDemo.DataProviderDemo">-->
+<!--                <methods>-->
+<!--                    <include name="signin"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="TestngDemo.LoginTest">
+                <methods>
+                    <include name="Forgetpass"/>
+                    <include name="Login"/>
+                </methods>
             </class>
+            <class name="TestngDemo.HomepageTest">
+                <methods>
+                    <include name="verifypage"/>
+                    <include name="Logout"/>
+                </methods>
+            </class>
+
+<!--            <class name="TestngDemo.ParallelTest">-->
+<!--            </class>-->
+
+<!--            <class name="TestngDemo.ParametersTestng">-->
+
+<!--            </class>-->
         </classes>
     </test>
 </suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo(failed)" parallel="methods">
+    <classes>
+      <class name="TestngDemo.HomepageTest">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- TestngDemo.HomepageTest -->
+      <class name="TestngDemo.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- TestngDemo.LoginTest -->
+    </classes>
+  </test> <!-- C:/Users/AmanShukla/IdeaProjects/HRMtesting/src/test/java/TestngDemo(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

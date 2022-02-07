@@ -1,22 +1,21 @@
 package HRMlogin;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 class Hrm
 {
      WebDriver driver = new ChromeDriver();
-    void login()
-    {
+    void login() throws IOException {
         String url="http://orangehrm.qedgetech.com/symfony/web/index.php/auth/login";
         driver.get(url);
         driver.manage().window().maximize();
@@ -24,6 +23,11 @@ class Hrm
         a.sendKeys("Admin");
         driver.findElement(By.xpath("//*[@id=\"txtPassword\"]")).sendKeys("Qedge123!@#");
         driver.findElement(By.id("btnLogin")).click();
+        File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(srcFile,new File("./image1.png"));
+//        WebElement ele = driver.findElement(By.cssSelector(".lnXdpd"));
+//        File srcFile1 = ele.getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(srcFile1,new File("./image2.png"));
 
     }
     void adduser() throws InterruptedException
@@ -192,8 +196,7 @@ class Hrm
 }
 public class Base extends Hrm
 {
-    public static void main(String[] args) throws InterruptedException
-    {
+    public static void main(String[] args) throws InterruptedException, IOException {
         WebDriverManager.chromedriver().setup();
         Hrm h = new Hrm();
         h.login();
@@ -202,7 +205,7 @@ public class Base extends Hrm
        // h.edituser();
        // h.deleteuser();
        // h.Dropdown();
-        h.calender();
+//        h.calender();
        // h.logout();
        // h.close();
     }

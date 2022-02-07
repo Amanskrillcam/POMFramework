@@ -29,7 +29,7 @@ public class XpathsDemo {
 
         driver.get("https://www.facebook.com/");
         driver.manage().window().maximize();
-//
+
         driver.findElement(By.linkText("Create New Account")).click();
         Thread.sleep(5000);
 
