@@ -115,7 +115,4 @@ public class HomePage extends BaseTest
         logoutbtn.click();
     }
 
-
-
-
 }

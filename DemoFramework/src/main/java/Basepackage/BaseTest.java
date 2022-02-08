@@ -1,5 +1,6 @@
 package Basepackage;
 
+import PageFactory.ObjectFactory;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -15,6 +16,7 @@ public class BaseTest
 {
     public static WebDriver driver;
     public static Properties prop;
+    protected static ObjectFactory obj;
 
     public BaseTest()
     {
@@ -33,6 +35,7 @@ public class BaseTest
     }
 
     public static void initialization() {
+        obj=new ObjectFactory();
         String browsername = prop.getProperty("browser");
         if (browsername.equals("chrome"))
         {

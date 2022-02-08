@@ -44,7 +44,7 @@ public class LoginPage extends BaseTest
         path = System.getProperty("user.dir")+"\\TestData\\Test_data.xlsx";
         System.out.println(path);
 
-        //Step2 give path in fileinputstream class from where we want to add file
+        //.Step2 give path in fileinputstream class from where we want to add file
         FileInputStream fis = null;
         try
         {
