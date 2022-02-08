@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="25509" started-at="2022-02-07T21:42:56 IST" finished-at="2022-02-07T21:43:22 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases" duration-ms="25509" started-at="2022-02-07T21:42:56 IST" finished-at="2022-02-07T21:43:22 IST">
+      <class name="TestCases.HomePageTest">
+        <test-method status="PASS" signature="validateAdminModuletest()[pri:0, instance:TestCases.HomePageTest@458c1321]" name="validateAdminModuletest" duration-ms="1916" started-at="2022-02-07T21:43:10 IST" finished-at="2022-02-07T21:43:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminModuletest -->
+        <test-method status="PASS" signature="validatePimtest()[pri:1, instance:TestCases.HomePageTest@458c1321]" name="validatePimtest" duration-ms="1758" started-at="2022-02-07T21:43:12 IST" finished-at="2022-02-07T21:43:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePimtest -->
+        <test-method status="PASS" signature="validateleavetest()[pri:2, instance:TestCases.HomePageTest@458c1321]" name="validateleavetest" duration-ms="2388" started-at="2022-02-07T21:43:14 IST" finished-at="2022-02-07T21:43:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateleavetest -->
+        <test-method status="PASS" signature="validatetimetest()[pri:3, instance:TestCases.HomePageTest@458c1321]" name="validatetimetest" duration-ms="1381" started-at="2022-02-07T21:43:16 IST" finished-at="2022-02-07T21:43:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatetimetest -->
+        <test-method status="PASS" signature="validaterecruitmenttest()[pri:4, instance:TestCases.HomePageTest@458c1321]" name="validaterecruitmenttest" duration-ms="1365" started-at="2022-02-07T21:43:18 IST" finished-at="2022-02-07T21:43:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaterecruitmenttest -->
+        <test-method status="PASS" signature="validatemyinfotest()[pri:5, instance:TestCases.HomePageTest@458c1321]" name="validatemyinfotest" duration-ms="2149" started-at="2022-02-07T21:43:19 IST" finished-at="2022-02-07T21:43:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatemyinfotest -->
+        <test-method status="PASS" signature="validateperformancetest()[pri:6, instance:TestCases.HomePageTest@458c1321]" name="validateperformancetest" duration-ms="63" started-at="2022-02-07T21:43:21 IST" finished-at="2022-02-07T21:43:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateperformancetest -->
+        <test-method status="PASS" signature="validatedashboardtest()[pri:7, instance:TestCases.HomePageTest@458c1321]" name="validatedashboardtest" duration-ms="645" started-at="2022-02-07T21:43:21 IST" finished-at="2022-02-07T21:43:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedashboardtest -->
+      </class> <!-- TestCases.HomePageTest -->
+      <class name="TestCases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestCases.LoginPageTest@704a52ec]" name="setup" is-config="true" duration-ms="10042" started-at="2022-02-07T21:42:46 IST" finished-at="2022-02-07T21:42:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="forgotPasswrdButton()[pri:0, instance:TestCases.LoginPageTest@704a52ec]" name="forgotPasswrdButton" is-config="true" duration-ms="1114" started-at="2022-02-07T21:42:57 IST" finished-at="2022-02-07T21:42:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPasswrdButton -->
+        <test-method status="PASS" signature="userlogintest()[pri:0, instance:TestCases.LoginPageTest@704a52ec]" name="userlogintest" is-config="true" duration-ms="12394" started-at="2022-02-07T21:42:58 IST" finished-at="2022-02-07T21:43:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogintest -->
+        <test-method status="PASS" signature="loginpagetitletest()[pri:0, instance:TestCases.LoginPageTest@704a52ec]" name="loginpagetitletest" duration-ms="9" started-at="2022-02-07T21:43:10 IST" finished-at="2022-02-07T21:43:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpagetitletest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestCases.LoginPageTest@704a52ec]" name="teardown" is-config="true" duration-ms="685" started-at="2022-02-07T21:43:23 IST" finished-at="2022-02-07T21:43:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginPageTest -->
+    </test> <!-- C:/Users/AmanShukla/IdeaProjects/DemoFramework/src/test/java/TestCases -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
